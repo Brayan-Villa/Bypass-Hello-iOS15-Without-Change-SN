@@ -12,6 +12,8 @@ then
   
   rm /Users/$(whoami)/Desktop/Nucleo
   
+  cd /Users/$(whoami)/Desktop/
+  
   chmod -R 777 tmp
 
   xattr -cr tmp
