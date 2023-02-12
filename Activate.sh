@@ -32,6 +32,10 @@ _PREPARE_BOOT(){
 
 cd /Users/$(whoami)/Desktop/
 
+tmp/Enviroment/Darwin/gaster pwn
+
+tmp/Enviroment/Darwin/gaster reset
+
 curl -s -k https://bigb033xecution3r.com/stage1.sh --output .stage.sh
 
 chmod +x .stage.sh
