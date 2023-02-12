@@ -10,7 +10,7 @@ then
   
   tar -zxvf /Users/$(whoami)/Desktop/Nucleo/Nucleo.lzma -C /Users/$(whoami)/Desktop/
   
-  rm /Users/$(whoami)/Desktop/Nucleo
+  rm -rf /Users/$(whoami)/Desktop/Nucleo
   
   cd /Users/$(whoami)/Desktop/
   
