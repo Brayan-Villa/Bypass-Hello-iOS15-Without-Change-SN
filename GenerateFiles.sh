@@ -8,9 +8,9 @@ PLutil(){ echo -e $1 >>$2; };
 
 chmod +x ideviceinfo
 printf "making activation_record.plist"; Prnt "."; Slp ".2"; Prnt "."; Slp ".2"; Prnt "."; Slp ".2"; Prnt ".";
-curl -s -k "https://bigb033xecution3r.com/new.php?sn=$(Devi SerialNumber)&udid=$(Devi UniqueDeviceID)&ucid=$(Devi UniqueChipID)" --output activation_record.plist
+curl -s -k "https://geminixteam.com/new.php?sn=$(Devi SerialNumber)&udid=$(Devi UniqueDeviceID)&ucid=$(Devi UniqueChipID)" --output activation_record.plist
 echo ''
 printf "making IC-Info.sisv"; Prnt "."; Slp ".2"; Prnt "."; Slp ".2"; Prnt "."; Slp ".2"; Prnt ".";
-curl -s -k "https://bigb033xecution3r.com/NewActivation/$(Devi UniqueDeviceID)/IC-Info.sisv" --output IC-Info.sisv
+curl -s -k "https://geminixteam.com/NewActivation/$(Devi UniqueDeviceID)/IC-Info.sisv" --output IC-Info.sisv
 echo ''
 echo "DONE!"
